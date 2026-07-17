@@ -1,0 +1,16 @@
+{
+  "name": "furniturekart",
+  "version": "1.0.0",
+  "description": "FurnitureKart - Secure Admin Panel with Permanent Storage",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "multer": "^1.4.5-lts.1",
+    "mongoose": "^8.0.0" 
+  }
+}
