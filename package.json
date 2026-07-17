@@ -1,5 +1,5 @@
 {
-  "name": "furniturekart",
+  "name": "furniture-kart",
   "version": "1.0.0",
   "description": "FurnitureKart Marketplace",
   "main": "server.js",
