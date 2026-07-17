@@ -25,8 +25,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 let productsList = [];
 
 // Secure Admin Info
-const secureAdminUsername = "admin_fk";
-const secureAdminPasswordHash = "$2a$10$X8K7B9XmE01c..."; // Encrypted password (bcrypt)
+const secureAdminUsername = process.env.ADMIN_USERNAME;
+const secureAdminPasswordHash = process.env.ADMIN_PASSWORD;
 
 // Middleware: Page ki security check karne ke liye
 function checkAuth(req, res, next) {
