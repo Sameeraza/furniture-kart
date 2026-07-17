@@ -1,5 +1,5 @@
 {
-  "name": "furnitur-ekart",
+  "name": "furniturekart",
   "version": "1.0.0",
   "description": "FurnitureKart - Secure Admin Panel with Permanent Storage",
   "main": "server.js",
